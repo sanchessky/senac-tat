@@ -1,3 +1,7 @@
+ATIVIDADE DO DIA 06/03/2024
+#QUARTA-FEIRA
+
+
 #01_ Instalação de Software e Desafios;
 
 	
