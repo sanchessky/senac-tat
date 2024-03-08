@@ -1,0 +1,32 @@
+AULA 08/03/2024
+
+
+#01_ Conhecendo mais sobre Instalação de Softwares
+
+	Gerenciador de Aplicativo
+		Microsoft: Ttf-mscorefonts-intaller
+		p7zip-full
+		Cairo-Dock
+		
+	O QUE É: SYNAPTIC
+		libreoffice-base1 -
+		libreoffice-calc -
+		libreoffice-draw-  removido 
+		libreoffice-impress-
+		libreoffice-math-
+		libreoffice-writer-
+	
+	O QUE É: APT ou APT-GET
+		sudo apt update
+		sudo apt install git
+		sudo apt install vim python2 python3 htop nmap ipcalc
+		sudo apt install hollywood cmatrix
+	
+	O QUE É: APPIMAGE
+		kdenlive
+	
+	O QUE É: PPA
+		GNS3
+	
+	O QUE É: SNAP e FLATPACK FLATHUB
+		NÃO VOU USAR
