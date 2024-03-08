@@ -30,3 +30,4 @@ AULA 08/03/2024
 	
 	O QUE É: SNAP e FLATPACK FLATHUB
 		NÃO VOU USAR
+![desafio software2](https://github.com/sanchessky/senac-tat/assets/115747016/563844f2-b775-4f87-92eb-7a1419f15a4b)
