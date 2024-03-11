@@ -17,5 +17,4 @@ ATIVIDADE DO DIA 06/03/2024
 	#10_ Tor Browser (?)
 
 
-![Desafio de Software](https://github.com/sanchessky/senac-tat/assets/115747016/ad334c42-2794-4449-b33d-03b9dff023f9)
 
