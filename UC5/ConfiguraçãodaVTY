@@ -1,0 +1,32 @@
+! configuração da VTY
+enable
+    #configure terminal
+
+    !Acessando as Linhas
+    line vty 0 4   
+
+    Habilitando a senha
+    login local
+
+    password 123@senac
+    
+    Habilitando o sincronismo das mensagens
+    logging synchronous
+
+    !Habilitando o tempo de inatividade
+    exec-timeout 5 30
+    !Configuração do tipo de Protocolo de Transporte
+    transport input ssh
+
+    !sair
+    end
+!salvar as configurações
+copy running-config startup-config
+ou
+write
+!Fazendo um Filtro na Visualização do Running-Config
+show running-config | section include line vty
+
+
+
+
