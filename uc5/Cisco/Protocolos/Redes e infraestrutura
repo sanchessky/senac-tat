@@ -1,0 +1,9 @@
+    !REDES e Infraestrutura
+
+    Protocolo - conjunto de regras e normas que definem como os dados devem ser transmitidos e recebidos/idioma 
+    IP- endereço
+    TCP-IP - organiza a comunicação em camadas 
+    Pacotes Novell - sistema operacinal de redes usados para compartilhar aquivos
+    protocolos usados IPX para roteamento de pacote em redes locais
+    SPX para transporte confiavel de dados simular ao TCP
+    Pacotes Apple - AppleTalk e Bonjour
