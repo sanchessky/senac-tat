@@ -1,4 +1,4 @@
-**!comentário -  Desativar comando;**
+!comentário -  Desativar comando;
 enable
     !Configurando Data e Hora;
     clock set 15:15:00 22 May 2024
