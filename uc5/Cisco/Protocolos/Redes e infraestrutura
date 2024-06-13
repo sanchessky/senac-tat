@@ -31,6 +31,19 @@
 
     WLAN - Wireless Local Area Network rede local sem fio é uma LAN que usa tecnologias sem fio
 
+    TCP: ele envia pacotes e caso perca algum pacote ele reenvia tendo 100% da certeza que todos chegaram
+ 
+    UDP: ele envia os pacotes uma vez apenas e caso perca nao sera reenviado, utilizado mais em ações aovivo
+    
+    CSMA / CD significa Carrier Sense Multiple Access / Collision Detection é um protocolo de rede para transmissão de operadora
+    ele funciona detectando colisões de pacotes de dados e evitando que elas ocorram
+    se houver uma colisão, os dispositivos envolvidos esperam um tempo aleatório antes de tentar novamente
+    desta forma, quando se ouve algo diferente do que foi dito, é identificada uma colisão
+
+    HUB - dispositivo simples usado em redes para conectar vários dispositivos, transmitindo dados para todas as conexões
+
+    
+
 
 
 
