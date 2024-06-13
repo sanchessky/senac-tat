@@ -42,7 +42,9 @@
 
     HUB - dispositivo simples usado em redes para conectar vários dispositivos, transmitindo dados para todas as conexões
 
-    
+    SWITCH - operam na Camada 2 (Modelo OSI) e reconhecem os endereços MAC dos dispositivos conectados, 
+    permitindo filtrar ou encaminhar decisões corretamente e quando um dispositivo envia um pacote de dados ao switch 
+    ele pode determinar onde está o destino pretendido do pacote e enviá-lo apenas para esse dispositivo
 
 
 
