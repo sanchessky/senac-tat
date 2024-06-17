@@ -1,3 +1,4 @@
+```python
 !ConfiguracaoBaseRouter1941
 !Habilitando o Log de Debug no Router
 service timestamps debug datetime msec
@@ -95,6 +96,7 @@ clock set 16:00:00 29 May 2024
 
 			!Habilitando o tempo de inatividade de uso da linha virtual
 			exec-timeout 5 30
+```
 
 			!Configuração do tipo de protocolo de transporte de entrada
 			transport input ssh
