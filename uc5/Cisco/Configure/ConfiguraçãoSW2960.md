@@ -1,9 +1,12 @@
-comentário -  Desativar comando
-    enable
-    !Configurando Data e Hora
-    clock set 15:15:00 22 May 2024
-!Configuração Global
-configure terminal
+*enable ativar privilegio*
+
+
+     Configurando Data e Hora
+     clock set 15:15:00 22 May 2024
+
+
+1]Configuração Global
+configure terminal#
 
 !Configuração Hostname
 hostname sw-01
@@ -13,27 +16,26 @@ service password-encryption
         
  service timestamps log datetime msec
         
-!Desativando o serviço de resolução de nomes de domínio
+Desativando o serviço de resolução de nomes de domínio
     no ip domain-lookup
         
-!Configuração do banner da mensagem do dia no Cisco IOS
+Configuração do banner da mensagem do dia no Cisco IOS
 banner motd #AVISO: acesso autorizado somente a funcionarios
 
-!Habilitando o uso de senha;
+Habilitando o uso de senha
 enable secret 123@senac
 
  
- !Criação dos usuários locais;
+!Criação dos usuários locais;
             username senac secret 123@senac
             username thiago password 123@senac 
             username admin privilege 15 secret 123@senac
-
-!Configuração da Linha Console;
+Configuração da Linha Console;
     line console 0
 
- !Forçando fazer login local;
+ Forçando fazer login local;
                 login local
-                ! Habilitando a senha de acesso;
+                 Habilitando a senha de acesso;
                 password 123@senac
                 !Habilitando o sincronismo das mensagens de Logs;
                 logging synchronous
@@ -44,7 +46,7 @@ enable secret 123@senac
 
 
 
-!Sair de todos os modos;
+Sair de todos os modos
 end
-!Salvando da RAM para NVRAM;
+Salvando da RAM para NVRAM
  copy running-config startup-config
