@@ -1,3 +1,4 @@
+```python
 !ConfiguraçãodaInterfaceLANdoRouter
 Enable
         !Acessando a Interface GigabitEthernet
@@ -23,3 +24,4 @@ Enable
     show ip interface brief
     !Visualizando informações
     show ip route
+```
