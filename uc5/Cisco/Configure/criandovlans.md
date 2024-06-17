@@ -1,11 +1,10 @@
-## 1) Criação das Vlans 
+## CRIAÇÕES DAS VLANS:
 
-modo privilegiado
+ Entrar no modo privilegiado do Switch
+ 
+    sw-05>enable
 
-
-
-enable
-    show vlan brief
+show vlan brief
 
     VLAN Name                             Status    Ports
     ---- -------------------------------- --------- -------------------------------
