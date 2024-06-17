@@ -1,3 +1,4 @@
+```python
 BackupConfiguracão
 enable 
     !versão
@@ -292,4 +293,6 @@ line vty 5 15
 !
 !
 end
+
+```
 
