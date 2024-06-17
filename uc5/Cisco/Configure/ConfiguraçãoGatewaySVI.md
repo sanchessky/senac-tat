@@ -1,3 +1,4 @@
+```python
 !Configuração GatewaySVI
 
 enable
@@ -19,3 +20,4 @@ enable
 write
 show running-config | section include interface Vlan1
 show ip interface brief
+```
