@@ -1,3 +1,4 @@
+```python
 ! configuração da VTY
 enable
     #configure terminal
@@ -26,3 +27,4 @@ ou
 write
 !Fazendo um Filtro na Visualização do Running-Config
 show running-config | section include line vty
+```
