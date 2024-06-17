@@ -33,6 +33,8 @@ Acessando o modo Exec Privilegiado<br>
 
 <br>
 
+    sw-05#show vlan brief
+
     VLAN Name                             Status    Ports
     ---- -------------------------------- --------- -------------------------------
     1    default                          active    Gig1/0/1, Gig1/0/2, Gig1/0/3, Gig1/0/4
