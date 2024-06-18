@@ -1,6 +1,11 @@
+Autor: Thiago Sanches<br>
+Instagram: https://www.instagram.com/espetacular_sanches<br>
+LinkedIn Thiago Sanches: https://www.linkedin.com/in/thiagosanches07/<br>
+Github: https://github.com/sanchessky<br>
+Data de criação: 17/06/2024<br>
+Data de atualização: 17/06/2024<br>
 
-
-#### 1) Configuração Base Switch Cisco Catalyst Layer 2 2960
+### 1) Configuração Base Switch Cisco Catalyst Layer 2 2960
 
 ### 2) Configuração Base Switch Cisco Multilayer 3650
 
