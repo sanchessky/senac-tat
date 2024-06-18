@@ -1,5 +1,14 @@
+Autor: Thiago Sanches<br>
+Instagram: https://www.instagram.com/espetacular_sanches<br>
+LinkedIn Thiago Sanches: https://www.linkedin.com/in/thiagosanches07/<br>
+Github: https://github.com/sanchessky<br>
+Data de criação: 17/06/2024<br>
+Data de atualização: 17/06/2024<br>
+
+## Configuração da VTY
+
 ```python
-! configuração da VTY
+!configuração da VTY
 enable
     #configure terminal
 
