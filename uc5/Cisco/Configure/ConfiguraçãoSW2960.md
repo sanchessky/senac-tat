@@ -7,16 +7,17 @@ Data de atualização: 17/06/2024<br>
 
 ## Configuração do Switch 2960
 
-1) Modo Privilegiado
+1) Acessando o modo EXEC Privilegiado (# sinal de Hashtag - privileged EXEC mode)
 
           Switch> enable
 	     Switch#
 
 
-2) *Configurando Data e Hora*
+2) *Configurando Data e Hora* <br>
+Observação: Configuração de Data/Hora em Inglês
 
 
-        clock set 15:15:00 22 May 2024
+        Switch#clock set 15:15:00 22 May 2024
 
 
 3) *Configuração Global*
