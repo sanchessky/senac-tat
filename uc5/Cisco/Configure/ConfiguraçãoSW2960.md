@@ -5,6 +5,8 @@ Github: https://github.com/sanchessky<br>
 Data de criação: 17/06/2024<br>
 Data de atualização: 17/06/2024<br>
 
+## Configuração do Switch 2960
+
 
 *enable ativar privilegio*
 
