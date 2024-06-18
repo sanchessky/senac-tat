@@ -7,21 +7,29 @@ Data de atualização: 17/06/2024<br>
 
 ## Configuração do Switch 2960
 
+1) Modo Privilegiado
 
-*enable ativar privilegio*
-
-
-     Configurando Data e Hora
-     clock set 15:15:00 22 May 2024
+          Switch> enable
+	     Switch#
 
 
-Configuração Global
+2) *Configurando Data e Hora*
 
-     configure terminal#
-     
-Configuração Hostname
 
-     hostname sw-01
+        clock set 15:15:00 22 May 2024
+
+
+3) *Configuração Global*
+
+          configure terminal#
+          Switch# configure terminal   
+          Switch(configure terminal)#
+
+
+
+ 4) Configuração Hostname (continuar no modo de configuração global)
+
+          hostname sw-01
             
 Habilitando o serviço de criptografia de senha
    
