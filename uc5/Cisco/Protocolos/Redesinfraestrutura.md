@@ -1,4 +1,6 @@
-    *REDES e Infraestrutura*
+
+´´´phyton
+*REDES e Infraestrutura*
 
     Protocolo - conjunto de regras e normas que definem como os dados devem ser transmitidos e recebidos/idioma 
     IP- endereço
@@ -46,6 +48,7 @@
     permitindo filtrar ou encaminhar decisões corretamente e quando um dispositivo envia um pacote de dados ao switch 
     ele pode determinar onde está o destino pretendido do pacote e enviá-lo apenas para esse dispositivo
 
+´´´
 
 
 
