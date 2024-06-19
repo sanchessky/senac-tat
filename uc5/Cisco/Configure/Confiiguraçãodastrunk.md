@@ -30,8 +30,11 @@ Data de atualização: 19/06/2024
 <br>
 
 
-show running-config
+Observação: verificação as alterações do switch. (listar apenas a FastEthernet e GIgabitEthernet) <br>
 
+
+     show running-config
+    
     interface FastEthernet0/23
      switchport mode trunk
      switchport nonegotiate
@@ -47,3 +50,7 @@ show running-config
     interface GigabitEthernet0/2
      switchport mode trunk
      switchport nonegotiate
+
+
+     
+## Segunda Etapa (Configuração nas portas dos switch central )
