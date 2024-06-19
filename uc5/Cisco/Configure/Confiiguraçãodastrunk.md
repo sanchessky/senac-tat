@@ -53,4 +53,15 @@ Observação: verificação as alterações do switch. (listar apenas a FastEthe
 
 
      
-## Segunda Etapa (Configuração nas portas dos switch central )
+## Segunda Etapa (Configuração nas portas dos switch multiplayer)
+
+
+
+    (config)#interface range GigabitEthernet 1/0/1 - 4
+    (config-if-range)#description interface de trunk
+    (config-if-range)#switchport mode trunk
+    (config-if-range)#switchport nonegotiate
+    end
+    write
+
+    show running-config
