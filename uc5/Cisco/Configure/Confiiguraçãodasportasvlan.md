@@ -1,4 +1,4 @@
-## Primeira Etapa (Configuração nas portas dos switch)
+## Primeira Etapa (Configuração nas portas dos switch 2960)
     
     
     sw-03>enable 
