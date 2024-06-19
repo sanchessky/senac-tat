@@ -67,7 +67,7 @@ Observação: verificação as alterações do switch. (listar apenas a FastEthe
     show running-config
 
 
-## Terceira Etapa 
+## Terceira Etapa (liberando os acessos)
 
 
     sw-04#configure terminal
