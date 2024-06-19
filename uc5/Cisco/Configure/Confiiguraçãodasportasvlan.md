@@ -26,3 +26,24 @@ Data de atualização: 19/06/2024
             do write
     end
     write
+
+<br>
+
+
+show running-config
+
+    interface FastEthernet0/23
+     switchport mode trunk
+     switchport nonegotiate
+    !
+    interface FastEthernet0/24
+     switchport mode trunk
+     switchport nonegotiate
+    !
+    interface GigabitEthernet0/1
+     switchport mode trunk
+     switchport nonegotiate
+    !
+    interface GigabitEthernet0/2
+     switchport mode trunk
+     switchport nonegotiate
