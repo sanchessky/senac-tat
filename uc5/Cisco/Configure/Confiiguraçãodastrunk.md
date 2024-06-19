@@ -65,3 +65,16 @@ Observação: verificação as alterações do switch. (listar apenas a FastEthe
     write
 
     show running-config
+
+
+ Etapa 
+
+
+sw-04#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+sw-04(config)#interface range Fast
+sw-04(config)#interface range FastEthernet 0/1
+sw-04(config-if-range)#description vlan 40 estoque
+sw-04(config-if-range)#switch mode access
+sw-04(config-if-range)#switchport access vlan 40
+switchport nonegotiate
