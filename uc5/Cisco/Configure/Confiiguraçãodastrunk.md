@@ -1,9 +1,9 @@
-Autor: Thiago Sanches
-Instagram: https://www.instagram.com/espetacular_sanches
-LinkedIn Thiago Sanches: https://www.linkedin.com/in/thiagosanches07/
-Github: https://github.com/sanchessky
-Data de criação: 19/06/2024
-Data de atualização: 19/06/2024
+Autor: Thiago Sanches<br>
+Instagram: https://www.instagram.com/espetacular_sanches<br>
+LinkedIn Thiago Sanches: https://www.linkedin.com/in/thiagosanches07/<br>
+Github: https://github.com/sanchessky<br>
+Data de criação: 19/06/2024<br>
+Data de atualização: 19/06/2024<br>
 
 
 
@@ -67,14 +67,23 @@ Observação: verificação as alterações do switch. (listar apenas a FastEthe
     show running-config
 
 
- Etapa 
+## Terceira Etapa 
 
 
-sw-04#configure terminal
-Enter configuration commands, one per line.  End with CNTL/Z.
-sw-04(config)#interface range Fast
-sw-04(config)#interface range FastEthernet 0/1
-sw-04(config-if-range)#description vlan 40 estoque
-sw-04(config-if-range)#switch mode access
-sw-04(config-if-range)#switchport access vlan 40
-switchport nonegotiate
+    sw-04#configure terminal
+    sw-04(config)#interface range FastEthernet 0/1
+    sw-04(config-if-range)#description vlan 40 estoque
+    sw-04(config-if-range)#switchport mode access
+    sw-04(config-if-range)#switchport access vlan 40
+    switchport nonegotiate
+
+
+
+
+
+desligando as portas não utilizadas
+
+    sw-03(config)#interface range Fas
+    sw-03(config)#interface range FastEthernet 0/4 - 22
+    sw-03(config-if-range)#description nooooooooooo
+    sw-03(config-if-range)#shutdown
