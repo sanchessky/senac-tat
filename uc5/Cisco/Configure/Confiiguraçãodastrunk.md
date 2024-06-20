@@ -3,7 +3,7 @@ Instagram: https://www.instagram.com/espetacular_sanches<br>
 LinkedIn Thiago Sanches: https://www.linkedin.com/in/thiagosanches07/<br>
 Github: https://github.com/sanchessky<br>
 Data de criação: 19/06/2024<br>
-Data de atualização: 19/06/2024<br>
+Data de atualização: 20/06/2024<br>
 
 
 
