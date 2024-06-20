@@ -4,7 +4,7 @@ Instagram: https://www.instagram.com/espetacular_sanches<br>
 LinkedIn Thiago Sanches: https://www.linkedin.com/in/thiagosanches07/<br>
 Github: https://github.com/sanchessky<br>
 Data de criação: 17/06/2024<br>
-Data de atualização: 17/06/2024<br>
+Data de atualização: 20/06/2024<br>
 
 ## Configuração da Vlan
 
@@ -70,7 +70,7 @@ Acessando o modo Exec Privilegiado<br>
 
 
 
-## Segunda Etapa (Configurando a Interface de Gerenciamento SVI do Switch Multilayer 3650)
+## Segunda Etapa: Configurando a Interface de Gerenciamento SVI do Switch Multilayer 3650
 
     sw-05(config)#interface vlan 10
     sw-05(config-if)#
@@ -80,5 +80,16 @@ Acessando o modo Exec Privilegiado<br>
     sw-05(config-if)#exit
 
 
+## Terceira Etapa: Verificando as Configurações dos Switches.
 
+    !Visualizando as Configurações do Running-Config (RAM)
+    show running-config
 
+    !Visualizando as configurações da memória RAM
+    show running-config | section interface
+
+    !Verificando as informações das Interfaces de Trunk
+    show interface status
+    show interface trunk
+    show interfaces gigabitEthernet 0/1 status
+    show interfaces gigabitEthernet 0/1 switchport
