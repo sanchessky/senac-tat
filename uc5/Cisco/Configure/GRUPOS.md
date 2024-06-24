@@ -1,16 +1,16 @@
-Autor: Thiago Sanches
-Instagram: https://www.instagram.com/espetacular_sanches
-LinkedIn Thiago Sanches: https://www.linkedin.com/in/thiagosanches07/
-Github: https://github.com/sanchessky
-Data de criação: 24/06/2024
-Data de atualização: 24/06/2024
+Autor: Thiago Sanches<br>
+Instagram: https://www.instagram.com/espetacular_sanches<br>
+LinkedIn Thiago Sanches: https://www.linkedin.com/in/thiagosanches07/<br>
+Github: https://github.com/sanchessky<br>
+Data de criação: 24/06/2024<br>
+Data de atualização: 24/06/2024<br>
 
 
 
 
-## CRIANDO-GRUPOS-NOS-SWITCH
+## CRIANDO-GRUPOS-NOS-SWITCH<br>
 
-Observação:Refazer nos outros switch(ficar atento com as redes)
+Observação:Refazer nos outros switch(ficar atento com as redes)<br>
 
     enable
     configure terminal
