@@ -1,3 +1,13 @@
+Autor: Thiago Sanches
+Instagram: https://www.instagram.com/espetacular_sanches
+LinkedIn Thiago Sanches: https://www.linkedin.com/in/thiagosanches07/
+Github: https://github.com/sanchessky
+Data de criação: 24/06/2024
+Data de atualização: 24/06/2024
+
+
+
+
 ## CRIANDO-GRUPOS-NOS-SWITCH
 
 Observação:Refazer nos outros switch(ficar atento com as redes)
