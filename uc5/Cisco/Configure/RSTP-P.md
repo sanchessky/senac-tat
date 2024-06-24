@@ -1,6 +1,6 @@
-RSTP=S
+RSTP-S
 
-enable
+    enable
     configure terminal
         spanning-tree (trabalha apenas com vlans)
         spanning-tree vlan 1-60 root primary
