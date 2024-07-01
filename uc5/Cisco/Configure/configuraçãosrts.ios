@@ -1,0 +1,41 @@
+!configuração router 3
+
+enable
+    configure terminal
+      interface GIG 0/0/0
+    description 
+    idd 10.0.0.0 255.255.255.252
+    no shutdown
+Wr
+show ip interface brief
+show ip route
+
+
+!configuração switch 
+ena 
+    conf t  
+
+        int gig 1/0/24  
+        description 
+        no switchport
+        ip address 192.168.2.1 255.255.255.0
+        no shutdown 
+        end
+
+
+
+!configuração router
+
+
+ena 
+    conf t
+        ip route 0.0.0.0 0.0.0.0 10.0.0.2 
+
+        ip route 192.168.1.0 255.255.255.0 10.0.0.1
+
+
+	!Configurando a Rota Estática para atingir as Redes 192.168.2.0/30 e 192.168.3.0/30
+	!OBSERVAÇÃO: nesse cenário vou utilizar a Interface de Saída para as Redes
+	ip route 192.168.1.1 255.255.255.0 ip principal
+	ip route 192.168.2.1 255.255.255.0 
+	end
