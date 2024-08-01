@@ -18,9 +18,8 @@
 
 ## SEGUNDA ETAPA: Colocar a ISO do Windows Server<br>
 
-Link da Microsoft
-
-     https://www.microsoft.com/pt-br/evalcenter/download-windows-server-2012-r2
+Link da Microsoft:
+https://www.microsoft.com/pt-br/evalcenter/download-windows-server-2012-r2
 
 
 Obs: Na propria Microsoft você tem 90 dias gratís para estudar e baixar a versções do Windows Server<br>     
