@@ -24,4 +24,6 @@ https://www.microsoft.com/pt-br/evalcenter/download-windows-server-2012-r2
 
 Obs: Na propria Microsoft você tem 90 dias gratís para estudar e baixar a versções do Windows Server<br>     
 
+fazer um raid 1: pesquisar o que é 
+
 
