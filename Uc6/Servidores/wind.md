@@ -1,11 +1,11 @@
 
  
-## PRIMEIRA ETAPA: Criarndo a maquina virtual windows server<br>
+## PRIMEIRA ETAPA: Criando a maquina virtual windows server<br>
 
 1-configurando a Maquina Virtual, clique nas configurações para abrir o menu (Nesta parte vá apenas para o ARMAZENAMENTO)<br>
 
 
-2 -no dispositivo de armanezamento na parte (controladora: SATA), você deverar adicinar 8 disco rigidos no modo vdi<br>
+2-no dispositivo de armanezamento na parte (controladora: SATA), você deverar adicinar 8 disco rigidos no modo vdi<br>
 
 
     Exemplo: hd.1vdi
