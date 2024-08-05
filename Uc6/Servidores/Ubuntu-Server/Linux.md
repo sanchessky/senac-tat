@@ -148,10 +148,10 @@ A) Instalação do Ubuntu Server: https://ubuntu.com/server/docs/installation
 11) Profile setup
 	OBSERVAÇÃO: ALTERAR OS DADOS DO NOME DO SERVIDOR, USUÁRIO E SENHA PARA O SEU CENÁRIO.
 	Your name: Seu Nome e Sobrenome <Tab>
-	Your servers name: wsvaamonde <Tab>
-	Pick a username: vaamonde <Tab>
-	Choose a passwords: pti@2018 <Tab>
-	Confirm your passwords: pti@2018
+	Your servers name: wsthiago <Tab>
+	Pick a username: senac <Tab>
+	Choose a passwords: 123@senac <Tab>
+	Confirm your passwords: 123senac
 <Done>
 
 12) Upgrade to Ubuntu Pro
