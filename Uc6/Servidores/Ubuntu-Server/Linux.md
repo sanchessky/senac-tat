@@ -67,3 +67,16 @@ Oracle VirtualBOX Gerenciado (versão 7.x ou superior).
 		#SEM-FIO (RECOMENDO SEMPRE PLACA DE REDE CABEADA, MELHOR DESEMPENHO).
 <OK>
 ```
+
+
+#04_ Quarta Etapa: Iniciando a Instalação do Ubuntu Server 22.04.x LTS (localizar a ISO)
+```bash
+Oracle VirtualBOX Gerenciado (versão 7.x ou superior).
+
+01. Selecionar a Máquina Virtual: UbuntuWebserver: 
+<Iniciar>
+
+02. VirtualBOX VM	
+	DVD: <Outro>
+	LOCALIZAR A IMAGEM DA ISO DO UBUNTU SERVER 22.04.x LTS
+<Montar e Tentar Novo Boot>
