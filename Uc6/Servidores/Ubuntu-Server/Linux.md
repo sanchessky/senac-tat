@@ -179,6 +179,6 @@ A) Instalação do Ubuntu Server: https://ubuntu.com/server/docs/installation
 #DE AUTENTICAÇÃO DO SSH SERVER, PRESSIONE <ENTER> PARA APARECER A TELA DE LOGIN.
 
 01) Tela de Login do Ubuntu Server
-	wsvaamonde login: vaamonde <Enter> (altere para o seu usuário)
-	Password: pti@2018 <Enter> (altere para o seu usuário)
+	wsthiago login: thiago <Enter> (altere para o seu usuário)
+	Password: sanches <Enter> (altere para o seu usuário)
 ```
