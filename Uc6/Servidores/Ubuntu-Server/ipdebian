@@ -1,0 +1,23 @@
+## 1-Colando endereço ip no debian
+entrando no repositorio network
+cd etc/network
+## 2-copiar e renomerar a  interfaces
+cp interface interface.old
+
+editar o arquivo com vim
+vim interfaces
+comentar apartir da linha 13
+#LAN
+allow-hotplug enp0s8
+iface enp0s8 inet static
+address 192.168.0.1/24
+
+
+Shift : X   sair salva 
+
+
+Reniciar o sistema 
+reboot
+
+vericar status do sistema
+systenctl status networking
