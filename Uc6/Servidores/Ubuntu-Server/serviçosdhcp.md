@@ -16,3 +16,13 @@ cp isc-dhcp-server isc-dhcp-server.old
 
 vim isc-dhcp-server
 INTERFACES="enp0s8" (verificar antes a interface)
+
+
+
+
+2) Configurar o script
+cd /etc
+# fazer uma cópia do arquivo de configuração
+cp dhcpd.conf dhcpd.conf.bkp
+
+vim dhcpd.conf
