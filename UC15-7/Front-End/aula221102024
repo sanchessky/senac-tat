@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* BreakPoints */
+
+/* SmartPhone Portrait (levantado) */
+@media (min-width: 576px) {
+    body {
+        background-color: #A020F0;
+    }
+}
+
+/* SmartPhone Landscape (deitado) */
+
+/* Tablet Portrait (levantado) */
+@media (min-width: 768px) {
+    body {
+        background-color: #00ff;
+    }
+}
+/* Tablet Landscape (deitado) */
+@media (min-width: 992px) {
+    body {
+        background-color: #00ffff;
+    }
+}
+/* PCs/Notebooks */
+@media (min-width: 1200px) {
+    body {
+        background-color: #00ffff;
+    }
+}
+
+/* Telas FullHD /4K /SmartTV */
+@media (min-width: 1400px) {
+    body {
+        background-color: #ff0000;
+    }
+}
