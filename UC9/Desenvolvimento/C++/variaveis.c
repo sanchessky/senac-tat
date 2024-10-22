@@ -16,7 +16,7 @@ int main(){
     printf(" O endereço de n2 é %p\n", &n2);
 
     printf(" O valor de rs é %d\n", &rs);
-    printf(" O endereço de nr é %p\n", &rs);
+    printf(" O endereço de rs é %p\n", &rs);
 
     return 0;
 }
