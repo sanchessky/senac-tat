@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&n1);
     printf("Digite outro número: \n");
     scanf("%d",&n2);
-    // realizar a soma ebtre n1 e n2
+    // realizar a soma entre n1 e n2
     rs = n1+n2;
     // exibir o resultado da soma
     printf("O resultado é %d\n",rs);
