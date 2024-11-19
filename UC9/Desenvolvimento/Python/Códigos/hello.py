@@ -1,0 +1,4 @@
+# VAMOS USAR O COMANDO PRINT PARA EXIBIR IMA MENSAGEM
+print("Hello, World!")
+
+
