@@ -77,11 +77,14 @@ class Caixa(QWidget):
         
 
         #-----------Total a pagar Label e LineEdit --------------------------
+        #coluna das tabelas
+        colunas = ['Cod.Produto','Nome do Produto','Descrição', 'Quantidade', 'Preço Unitário', 'Subtotal']
         self.total_pagar_label = QLabel('Total a Pagar')
         self.total_pagar_edit = QLineEdit('0,00')
         self.v_layout_direita.addWidget(self.total_pagar_label)
         self.v_layout_direita.addWidget(self.total_pagar_edit)
         self.label_coluna_direita.setLayout(self.v_layout_direita)
+
 
 
 
