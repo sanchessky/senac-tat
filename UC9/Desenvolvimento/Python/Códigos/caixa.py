@@ -56,7 +56,7 @@ class Caixa(QWidget):
         self.preco_unitario_produto_edit = QLineEdit()
         self.v_layout_esquerda.addWidget(self.preco_unitario_produto_label)
         self.v_layout_esquerda.addWidget(self.preco_unitario_produto_edit)
-         #-----------Sub Tota Label e LineEdit --------------------------
+        #-----------Sub Total Label e LineEdit --------------------------
         self.sub_total_label = QLabel('Sub Total:')
         self.sub_total_edit = QLineEdit()
         self.v_layout_esquerda.addWidget(self.sub_total_label)
@@ -76,7 +76,7 @@ class Caixa(QWidget):
         self.v_layout_direita.addWidget(self.tabela)
         
 
-
+        #-----------Total a pagar Label e LineEdit --------------------------
         self.total_pagar_label = QLabel('Total a Pagar')
         self.total_pagar_edit = QLineEdit('0,00')
         self.v_layout_direita.addWidget(self.total_pagar_label)
