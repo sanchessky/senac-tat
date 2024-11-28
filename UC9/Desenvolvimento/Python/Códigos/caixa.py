@@ -70,15 +70,17 @@ class Caixa(QWidget):
 
         #criar uma tabela e adiconar na coluna da direita, esta tabela terá os nomes dos campos que estão ao esquerdo
         #coluna direita
+        #coluna das tabelas
+        colunas = ['Cod.Produto','Nome do Produto','Descrição', 'Quantidade', 'Preço Unitário', 'Subtotal']
         self.tabela = QTableWidget()
         self.tabela.setColumnCount(6)
+        self.tabela.setHorizontalHeaderLabels(colunas)
         self.tabela.setRowCount(10)
         self.v_layout_direita.addWidget(self.tabela)
         
 
         #-----------Total a pagar Label e LineEdit --------------------------
-        #coluna das tabelas
-        colunas = ['Cod.Produto','Nome do Produto','Descrição', 'Quantidade', 'Preço Unitário', 'Subtotal']
+        
         self.total_pagar_label = QLabel('Total a Pagar')
         self.total_pagar_edit = QLineEdit('0,00')
         self.v_layout_direita.addWidget(self.total_pagar_label)
